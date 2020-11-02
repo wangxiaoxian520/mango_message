@@ -4,11 +4,11 @@
 运行方式：
 启动两个cmd
 分别运行
-	go run main.go message.go boltdb.go 0 tcp://localhost:45454
-	go run main.go message.go boltdb.go 1 tcp://localhost:45454
+go run main.go message.go boltdb.go 0 tcp://localhost:45454
+go run main.go message.go boltdb.go 1 tcp://localhost:45454
   
-  go run main.go pubsub.go boltdb.go server tcp://localhost:45454
-  go run main.go pubsub.go boltdb.go client tcp://localhost:45454
+go run main.go pubsub.go boltdb.go server tcp://localhost:45454
+go run main.go pubsub.go boltdb.go client tcp://localhost:45454
   
 #mango 包作用说明  
 pair 消息一对一传送(实现)
